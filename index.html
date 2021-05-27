@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Giacomo F.M. - Conway's Game of Life</title>
+	<style type="text/css">
+		body {
+			display: flex;
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			padding 0;
+		}
+		div {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		canvas {
+			background-color: #111;
+		}
+	</style>
+</head>
+<body id="body">
+	<div>
+		<input type="number" id="rndNum" min="10" step="10" value="1000">
+		<button onclick="random()">RANDOMIZE</button>
+	</div>
+	<canvas id="grid">
+		your browser can not properly render this page
+	</canvas>
+	<script src="game-of-life.js"></script>
+</body>
+</html>
